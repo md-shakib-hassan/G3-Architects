@@ -1,0 +1,20 @@
+body{
+    /* margin: 0 auto; */
+     /* background-color: rgb(255, 144, 14, .1); */
+     margin: 0 0;
+     margin-top: 0;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.banner{
+    background-color: rgb(255, 144, 14, .1);
+    margin: 0 auto;
+}
+header img{
+    width: 100%;
+}
