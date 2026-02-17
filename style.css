@@ -1,8 +1,6 @@
 body{
-    /* margin: 0 auto; */
-     /* background-color: rgb(255, 144, 14, .1); */
      margin: 0 0;
-     margin-top: 0;
+    
 }
 
 .open-sans {
@@ -11,10 +9,84 @@ body{
   font-style: normal;
 }
 
-.banner{
+.header{
     background-color: rgb(255, 144, 14, .1);
+     
+}
+
+/* here the all color of project text. */
+.dark-2{
+    color: rgba(66, 66, 66, 1);
+}
+.dark-3{
+    color: rgba(114, 114, 114, 1);
+}
+ img{
+    width: 100%;
+}
+/* here all section main size: */
+.main-size{
+    max-width: 1100px;
     margin: 0 auto;
 }
-header img{
-    width: 100%;
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.link-item a{
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.band{
+    font-weight: bold;
+    font-size: 32px;
+    
+}
+.link-container li{
+    list-style: none;
+    
+}
+.link-container{
+    display: flex;
+}
+.link-container li{
+    margin-left: 40px;
+}
+.banner , .navbar{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.banner{
+    margin-top: 70px;
+    text-align: center;
+}
+.banner-content .title{
+    width: 450px;
+    margin: 0 auto;
+}
+.banner-content .sub-title{
+    width: 720px;
+    margin: 20px auto;
+    font-size: 16px;
+    /* margin-bottom: 50px; */
+}
+.btn-banner{
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px ;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 25px 0px ;
+}
+.banner img{
+    border-radius: 8px;
+    margin: 30px 0;
 }
