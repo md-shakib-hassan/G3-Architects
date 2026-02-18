@@ -164,7 +164,7 @@ main {
 }
 .girl-image{
     width: 500px;
-    height: 900px;
+    height: 790px;
     
 }
 .experience-details{
@@ -193,6 +193,76 @@ main {
     background-color: white;
     height: 160px;
     box-shadow: 5px 5px 5px 5px rgb(241, 238, 238);
-    padding: 15px;
+   padding-left: 15px;
+   padding-top: 5px;
     margin-top: 10px;
+}
+/* here start some fact section */
+.some-fact h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.some-subtitle{
+    width: 470px;
+    font-size: 14px;
+}
+
+.fact{
+    border: 1px solid #FF900E;
+    width: 180px;
+    border-radius: 8px;
+    text-align: center;
+}
+.fact img{
+    margin-top: 20px;
+}
+.fact-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.fact p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* here start footer */
+
+.our-sponspors{
+    margin-top: 100px;
+    width: 1100px;
+    margin: 100px auto;
+}
+
+.our-sponspors h2{
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+}
+.our-sponspors p{
+    width: 500px ;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+.sponspor{
+    width: 150px;
+}
+.sponspor img{
+    width: 100%;
+}
+.sponspor-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.last{
+    background-color:rgb(255, 144, 14, .1) ;
+    border-radius: 8px;
+    
+}
+.last p{
+    padding: 15px;
+    text-align: center;
 }
